@@ -34,7 +34,8 @@
                         <circle cx="12" cy="11" r="3" />
                         <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
                       </svg>
-                      Buenos Aires Argentina</p>
+                    Buenos Aires Argentina
+                </p>
             </div>
 
             <div class="imagen_fondo"></div>            
@@ -53,11 +54,53 @@
         </section>
 
         <section class="proyectos" id="proyecto">
+            <div class="contenedor_proyectos">
+                <a class="proyecto_elemento" href="#"> 
+                    <img class="proyecto imagen" src="" alt="Imagen Proyecto Tienda Front-end"> Tienda Front-end
+                </a>
 
+                <a class="proyecto_elemento" href="#"> 
+                    <img class="proyecto imagen" src="" alt="Imagen Proyecto Cafeteria">Tienda Cafeteria
+                </a>
+
+                <a class="proyecto_elemento" href="#"> 
+                    <img class="proyecto imagen" src="" alt="Imagen Proyecto Festival de Musica"> Festival de Musica
+                </a>
+
+                <a class="proyecto_elemento" href="#"> 
+                    <img class="proyecto imagen" src="" alt="Imagen Proyecto Peluqueria"> Peluqueria
+                </a>
+                
+            </div>
         </section>
 
-        <section class="contacto" id="contacto">
+        <section id="Contacto" class="contacto">
+            <h2 class="contenedor_titulo">Contacto</h2>
 
+                <form class="contenedor_formulario">
+                    <legend class="formulario_titulo">Contacta llenando todos los campos</legend>
+                    <div class="contenedor_campos">
+                        <div class="campo campo_J">
+                            <label class="campo_titulo">Nombre</label>
+                            <input type="text" name="nombre" placeholder="Nombre:" required>
+                        </div>
+                        <div class="campo campo_J">
+                            <label class="campo_titulo">Telefono</label>
+                            <input type="tel" name="Tel" placeholder="Telefono:" required>
+                        </div>
+                        <div class="campo">
+                            <label class="campo_titulo">Correo</label>
+                            <input type="mail" name="email" placeholder="Correo:" required>
+                        </div>
+                        <div class="campo">
+                            <label class="campo_titulo">Mensaje</label>
+                            <textarea name="mensaje"></textarea>
+                        </div>
+                    </div>
+                    <div class="formulario_boton">
+                        <input type="submit" name="boton" value="Enviar">
+                    </div>
+                </form>
         </section>
     </main>
 
