@@ -2,8 +2,6 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Santiago Ventoso</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="shortcut icon" type="image/png" href="Img/Icono-BLanco-T.png"/>
@@ -12,41 +10,58 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <nav class="navegacion">
-            <a class="nav-elemento" title="About" href="/">
-                <span>Informacion</span>
-            </a>
-            <a class="nav-elemento" href="portafolio.html">
-                <span>portafolio</span>
-            </a>
-            <a class="nav-elemento" href="contacto.html">
-                <span>contacto</span>
-            </a>
-        </nav>
-        <div class="icono">
-            <i></i>
-            <i></i>
-            <i></i>
+    <nav class="navegacion">
+        <a class="nav-link" href="#">Principio</a>
+        <a class="nav-link" href="#">Sobre mi</a>
+        <a class="nav-link" href="#">Portafolio</a>
+        <a class="nav-link" href="#">Contacto</a>
+        <div class="iconoMenu">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="44" height="44" viewBox="0 0 24 24" stroke-width="3" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <line x1="4" y1="6" x2="20" y2="6" />
+                <line x1="4" y1="12" x2="20" y2="12" />
+                <line x1="4" y1="18" x2="20" y2="18" />
+              </svg>
         </div>
-    </header>
+    </nav>
 
-    <section class="contenedor">
-        <div class="informacion">
-            <h2 class="informacion-titulo">Hola, Mi nombre es Santiago Ventoso.</h2>
-            <p class="informacion-texto">Tengo 16 años y soy de Buenos Aires, Argentina<br>No dudes en mirar mi portafolio!</p>
+    <section class="principio" id="principio">
+        <div class="principio_img">
+            <img src="Img/Logo-4(3).png">
         </div>
-            
-        <div class="RedeSociales">
-            <ul>
-                <li> <a href="#">Instagram</a> </li>
-
-                <li> <a href="#">Github</a> </li>
-
-                <li> <a href="#">Linkedin</a> </li>
-            </ul>
+        <div class="principio-texto">
+            <span>Hola!</span> 
+            <h1>Soy Santiago Ventoso</h1>
+            <span>FrontEnd Developer</span>
         </div>
     </section>
+    
+    <section class="informacion" id="informacion">
+        <h2>Mi informacion</h2>
+        <div class="informacion-elementos">
+            <div class="informacion-texto">
+                <p>
+                    
+                </p>
+            </div>
+
+            <div class="informacion-habilidades">
+                
+            </div>
+        </div>
+    </section>
+    
+    <section class="portafolio" id="portafolio">
+
+    </section>
+    
+    <section class="contacto" id="contacto">
+
+    </section>
+
+    <footer class="footer">
+
+    </footer>
 
     <script src="app.js"></script>
 </body>
