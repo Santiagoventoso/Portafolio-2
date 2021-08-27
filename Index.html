@@ -3,40 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <title>Santiago Ventoso</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/estilosPC.css">
     <link rel="shortcut icon" type="image/png" href="Img/Icono-BLanco-T.png"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav class="navegacion">
-        <a class="nav-link" href="#">Principio</a>
-        <a class="nav-link" href="#">Sobre mi</a>
-        <a class="nav-link" href="#">Portafolio</a>
-        <a class="nav-link" href="#">Contacto</a>
-        <div class="iconoMenu">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="44" height="44" viewBox="0 0 24 24" stroke-width="3" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <line x1="4" y1="6" x2="20" y2="6" />
-                <line x1="4" y1="12" x2="20" y2="12" />
-                <line x1="4" y1="18" x2="20" y2="18" />
-              </svg>
+        <div class="nav-links">
+            <a class="nav-link" href="#principio">Principio</a>
+            <a class="nav-link" href="#informacion">Sobre mi</a>
+            <a class="nav-link" href="#servicios">Servicios</a>
+            <a class="nav-link" href="#portafolio">Portafolio</a>
+            <a class="nav-link" href="#contacto">Contacto</a>
+        </div>
+        <div class="iconoMenu desaparecer">
+            <img src="Img/svg/botonMenusvg.svg" alt="Boton Menu">
         </div>
     </nav>
 
+
     <section class="principio" id="principio">
-        <div class="principio_img">
-            <img src="Img/Logo-4(3).png">
-        </div>
-        <div class="principio-texto">
-            <h1>Soy Santiago Ventoso</h1>
-            <span>Desarrollador FrontEnd</span>
+        <div class="imagen"></div>
+        <div class="contenedor-texto">
+            <h1 class="titulo-nombre">Soy <span> Santiago Ventoso </span> </h1>
+            <span class="texto-span">Desarrollador FrontEnd</span>
         </div>
     </section>
     
-    <section class="informacion" id="informacion">
-        <h2>Mi informacion</h2>
+    
+    <section class="informacion contenedor" id="informacion">
+        <h2 class="titulo">Mi informacion</h2>
         <div class="informacion-elementos">
             <div class="informacion-textos">
                 <p class="texto-informacion">
@@ -49,21 +44,192 @@
             </div>
 
             <div class="informacion-habilidades">
+
+                <div class="habilidades-texto">
+                    <h2 class="titulo">Mis habilidades:</h2>
+                </div>
+
+                <div class="info-html">
+                    <img src="./Img/html.png">
+                    <div class="habilidad-info">HTML</div>
+                </div>
+
+                <div class="info-css">
+                    <img src="./Img/css2.png">
+                    <div class="habilidad-info">CSS</div>
+                </div>
+
+                <div class="info-js">
+                    <img src="./Img/js2.png">
+                    <div class="habilidad-info">JavaScript</div>
+                </div>
                 
+                <div class="info-git">
+                    <img src="./Img/Git-Icono.png">
+                    <div class="habilidad-info">Git</div>
+                </div>
+
+                <div class="info-scss">
+                    <img src="./Img/SCSS.png">
+                    <div class="habilidad-info">Scss</div>
+                </div>
+
+            </div>
+        </div> 
+    </section>
+    
+
+    <section class="servicios contenedor" id="servicios">
+        <h2 class="titulo">Servicios</h2>
+        <h3 class="subtitulo">Servicios a ofrecer:</h3>
+        <div class="servicios-contenedor">
+
+            <div class="servicio-item">
+                <img src="/Img/svg/responsive.svg" alt="Icono responsive">
+                <h3 class="item-subtitulo">Responsive Desing</h3>
+                <p class="item-parrafo">Su sitio se mostrará correctamente en
+                cualquier dispositivo, incluidas computadoras de escritorio,
+                tabletas y teléfonos móviles.</p>
+            </div>
+
+            <div class="servicio-item">
+                <img src="Img/svg/programacion.svg" alt="Icono desarrollo">
+                <h3 class="item-subtitulo">Desarrollo</h3>
+                <p class="item-parrafo">Conozco la importancia del diseño web
+                y puedo ayudarlo a crear un sitio web que le encantará.</p>
+            </div>
+
+            <div class="servicio-item">
+                <img src="Img/svg/rendimiento.svg" alt="Icono Rendimiento">
+                <h3 class="item-subtitulo">Rendimiento</h3>
+                <p class="item-parrafo">Retener a los usuarios es fundamental
+                para mejorar las conversiones. Los sitios de alto rendimiento
+                atraen y retienen a los usuarios</p>
+            </div>
+
+            <div class="servicio-item">
+                <img src="Img/svg/seo.svg" alt="Icono SEO">
+                <h3 class="item-subtitulo">SEO</h3>
+                <p class="item-parrafo">Optimizaré su sitio con una estrategia
+                inteligente de optimización de motores de búsqueda para generar
+                clientes potenciales.</p>
+            </div>
+
+            <div class="servicio-item">
+                <img src="Img/svg/disenador.svg" alt="Icono diseño">
+                <h3 class="item-subtitulo">Diseño</h3>
+                <p class="item-parrafo">Un buen y atractivo diseño web le ayuda
+                a mantener sus clientes potenciales en su sitio, que es la cara
+                digital de su negocio.</p>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <section class="portafolio contenedor" id="portafolio">
+        <h2 class="titulo">Portafolio</h2>
+        <h3 class="subtitulo">Proyectos que he creado:</h3>
+        <div class="proyectos">
+            
+            <div class="proyecto-item">
+                <img src="Img/FrontEnd.jpeg" alt="Proyecto FrontEnd Store">
+                <div class="proyecto-descripcion">
+                    <h3 class="subtitulo">FrontEnd Store</h3>
+                    <p class="texto">Tecnologias: HTML, CSS</p>
+                    
+                    <div class="descripcion-botones">
+                        <a class="boton" href="https://frontendstoreproyecto2.netlify.app/">
+                            <img src="/Img/svg/web.svg" alt="Icono web">Sitio Web
+                        </a>
+
+                        <a class="boton" href="https://github.com/Santiagoventoso/Tienda-FrontEnd">
+                            <img src="/Img/svg/github.svg" alt="Icono Github">Repositorio
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="proyecto-item">
+                <img src="Img/Peluqueria.jpeg" alt="Proyecto Peluqueria">
+                <div class="proyecto-descripcion">
+                    <h3 class="subtitulo">Peluqueria</h3>
+                    <p class="texto">Tecnologias: HTML, SCSS, JS </p>
+                    
+                    <div class="descripcion-botones">
+                        <a class="boton" href="https://peluqueria-proyecto5.netlify.app/">
+                            <img src="/Img/svg/web.svg" alt="Icono web">Sitio Web
+                        </a>
+                    
+                        <a class="boton" href="https://github.com/Santiagoventoso/Proyecto-Peluqueria">
+                            <img src="/Img/svg/github.svg" alt="Icono Github">Repositorio
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="proyecto-item">
+                <img src="Img/TiendaCafe.jpeg" alt="Proyecto Tienda de Cafe">
+                <div class="proyecto-descripcion">
+                    <h3 class="subtitulo">Tienda de Cafe</h3>
+                    <p class="texto">Tecnologias: HTML, CSS</p>
+                    
+                    <div class="descripcion-botones">
+                        <a class="boton" href="https://cafeteriaproyecto3.netlify.app/">
+                            <img src="/Img/svg/web.svg" alt="Icono web">Sitio Web
+                        </a>
+                    
+                        <a class="boton" href="https://github.com/Santiagoventoso/blog-tienda-de-cafe">
+                            <img src="/Img/svg/github.svg" alt="Icono Github">Repositorio
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="proyecto-item">
+                <img src="Img/Festival.jpeg" alt="Proyecto Festival de Musica">
+                <div class="proyecto-descripcion">
+                    <h3 class="subtitulo">Festival de Musica</h3>
+                    <p class="texto">Tecnologias: HTML, SCSS, JS</p>
+                    
+                    <div class="descripcion-botones">
+                        <a class="boton" href="https://festivalmusica-proyecto4.netlify.app/">
+                            <img src="/Img/svg/web.svg" alt="Icono web">Sitio Web
+                        </a>
+                    
+                        <a class="boton" href="https://github.com/Santiagoventoso/Proyecto-Festival-de-musica">
+                            <img src="/Img/svg/github.svg" alt="Icono Github">Repositorio
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
     
-    <section class="portafolio" id="portafolio">
 
-    </section>
-    
-    <section class="contacto" id="contacto">
+    <section class="contacto contenedor" id="contacto">
+        <h2 class="titulo">Contacto</h2>
+        <div class="contacto-medios">
+            <div class="contenedor-github">
+                <a class="contacto-github" href="https://github.com/Santiagoventoso" target="-BLANK">github</a>
+                <img src="/Img/svg/github.svg" alt="Icono Github">
+            </div>
 
+            <div class="contenedor-gmail">
+                <a class="contacto-gmail" href="#">Gmail</a>
+                <img src="/Img/svg/correo.svg" alt="Icono Gmail">
+            </div>
+        </div>
     </section>
+
 
     <footer class="footer">
-
+        <p>Copyright © 2021. Todos los derechos reservados</p>
     </footer>
 
     <script src="app.js"></script>

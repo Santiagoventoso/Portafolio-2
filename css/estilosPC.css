@@ -1,0 +1,99 @@
+/*GENERAL*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,400&display=swap');
+
+:root{
+    --negro: #111111;
+    --negroLogo: #333333;
+    --gris: #888888;
+    --grisBlanco: #dee2e6;
+    --blanco: #f5f5f5;
+    --rojo: #e70c0c;    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.desaparecer{
+    display: none;
+}
+
+.contenedor {
+    width: 100%;
+    display: inherit;
+    max-width: 1200px;
+    justify-content: inherit;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/*Barra de Navegacion*/
+.navegacion{
+    background-color: transparent;
+    height: 6rem;
+    position: absolute;
+    z-index: 5;
+    margin-left: 60%;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-link{
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--blanco);
+    padding: 2rem 2rem 1.5rem;
+    flex-wrap: wrap;
+    scroll-behavior: smooth;
+}
+
+/*Seccion Principio*/
+.principio{
+    height: 95rem;
+}
+
+.imagen{
+    background-image: url(/Img/imagenFondo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    filter: brightness(50%);
+}
+
+.contenedor-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.titulo-nombre, .texto-span{
+    color: var(--blanco);
+}
+
+.titulo-nombre{
+    font-size: 4.8rem;
+}
+
+.titulo-nombre span{
+    font-size: 5.5rem;
+    color: var(--rojo);
+}
+
+.texto-span{
+    font-size: 2.5rem;
+}
