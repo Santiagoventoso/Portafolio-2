@@ -185,3 +185,57 @@ body{
     height: 40%;
     width: auto;
 }
+
+/*Seccion Portafolio*/
+.proyectos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding-top: 1rem;
+}
+
+.proyecto-item{
+    background: white;
+    position: relative;
+    object-fit: cover;
+    overflow: hidden;
+    height: 23rem;
+    width: 38rem;
+    border-radius: 5%;
+    box-shadow: .5rem .5rem 1rem var(--negroGris);
+}
+
+.proyecto-img{
+    height: 23rem;
+    width: 38rem;
+    object-fit: cover;
+    border-radius: 5%;
+}
+
+
+/*Seccion Contacto*/
+.contacto-contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 3rem;
+}
+
+.contacto-medio{
+    width: 12rem;
+    height: 12rem;
+    text-decoration: none;
+}
+
+.contacto-img{
+    height: 10rem;
+    width: 10rem;
+    object-fit: cover;
+}
+
+/*Footer*/
+.footer{
+    background-color: var(--blanco);
+    text-align: center;
+    padding: 4rem;
+}
